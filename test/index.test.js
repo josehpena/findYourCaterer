@@ -8,4 +8,8 @@ describe('findYourCaterer', () => {
   it('Should return type 1 when the budget and people sended are 15 and 1 respectively ', () => {
     expect(findYourCaterer(15, 1)).toBe(1);
   });
+
+  it('Should return type 2 when the budget and people sended are 20 and 1 respectively', () => {
+    expect(findYourCaterer(20, 1)).toBe(2);
+  });
 });
