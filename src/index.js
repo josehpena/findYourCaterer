@@ -1,8 +1,7 @@
 const findYourCaterer = (budget, persons) => {
-
-
-
-    return -1;
+  if(budget / persons < 15) return -1;
+      
+  return 1;
 }
 
 module.exports = {
