@@ -12,6 +12,12 @@ budget, people => (200, 9) will return 2.
 
 budget, people => (300, 9) will return 3 and so on.
 
+budget, people => (900, 60) will return 1
+
+budget, people => (1200, 60) will return 2
+
+budget, people => (1440, 60) will return 3
+
 ## Pomodoro 1
 
 # Should return -1 when the budget sended is 0 and the number of person is 1. OK
@@ -21,3 +27,4 @@ budget, people => (300, 9) will return 3 and so on.
 
 # Should return type 2 when the budget and people sended are 20 and 1 respectively OK
 # Should return type 3 when the budget and people sended are 30 and 1 respectively
+# should return type 3 taking into account a 20% discount when the number of people is equal to or greater than 60
