@@ -15,6 +15,9 @@ budget, people => (300, 9) will return 3 and so on.
 ## Pomodoro 1
 
 # Should return -1 when the budget sended is 0 and the number of person is 1. OK
-# Should return type 1 when the budget and people sended are 15 and 1 respectively 
+# Should return type 1 when the budget and people sended are 15 and 1 respectively  OK
 
-# Should return type 2 when the budget and people sended are 20 and 1 respectively
+## Pomodoro 2
+
+# Should return type 2 when the budget and people sended are 20 and 1 respectively OK
+# Should return type 3 when the budget and people sended are 30 and 1 respectively
