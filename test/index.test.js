@@ -19,5 +19,4 @@ describe('findYourCaterer', () => {
   it('Should return type 3 taking into account a 20% discount when the number of people is equal to or greater than 60', ()=>{
     expect(findYourCaterer(1440, 60)).toBe(3)
   })
-
 });
